@@ -38,9 +38,9 @@ namespace ConsoleApp
             Console.WriteLine(Mtr / timetosec(h, minuti, s));
 
             
-            Console.WriteLine("Скоростта в метри/секунди {0}", Mtr / s);
-            Console.WriteLine("Скоростта в мили/час {0}", mtomi(Mtr) / h);
-            Console.WriteLine("Скоростта в км/час {0}", (Mtr* 0.001) / h);
+            Console.WriteLine("Skorostta v metri/sekundi {0}", Mtr / s);
+            Console.WriteLine("Skorostta v mili/chas {0}", mtomi(Mtr) / h);
+            Console.WriteLine("Skorostta v kilometra/chas {0}", (Mtr* 0.001) / h);
 
         }
     }
