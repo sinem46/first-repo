@@ -1,0 +1,30 @@
+namespace Zadaca_1
+{
+    class Program
+    {
+        
+        {
+            //vryshta vremeto v sec
+            static double timetosec(double h, double m, double s)
+            {
+                double time = h * 60 * 60 + m * 60 + s;
+                return time;
+            }
+
+            public static void Main()
+            {
+                //da se napishe programa koqta vyvejda raztoqnieto v metri i vremeto chas minuta sekunda i da se napishat metodi kojto izchilslqvat vremeto v sekundi chasove i metrite v mili
+                //zadachata izvejda skorosta v m/s mil/h
+                Console.WriteLine("Въведете часове");
+                double hours = double.Parse(Console.ReadLine());
+                Console.WriteLine("Въведете минути");
+                double minutes = double.Parse(Console.ReadLine());
+                Console.WriteLine("Въведи секунди");
+                double seconds = double.Parse(Console.ReadLine());
+                Console.WriteLine("Въведете разтоянието в метри");
+                double meters = double.Parse(Console.ReadLine());
+                Console.WriteLine(meters / timetosec(hours, minutes, seconds));
+            }
+        }
+    }
+}
